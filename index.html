@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text To Speech</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Text To Speech</header>
+        <form action="#">
+            <div class="row">
+                <label for="text">Enter Text</label>
+                <textarea id="text"></textarea>
+            </div>
+            <div class="row">
+                <label for="selec">Select Voice</label>
+                <div class="outer">
+                    <select id="selec">
+                        <option hidden>Select a Lang</option>
+                    </select>
+                </div>
+            </div>
+            <button>Convert To Speech</button>
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
